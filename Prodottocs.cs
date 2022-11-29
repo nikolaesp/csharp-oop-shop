@@ -47,6 +47,11 @@ namespace CSharpShop
             this.iva = vat;
         }
         public int getIva() { return this.iva; }
+
+        public double prezzoTotale()
+        {
+            return this.prezzo + (this.prezzo * (this.iva/100.0));
+        }
         public void StampaProdotto()
         {
             Console.WriteLine("Nome: " + this.nome);

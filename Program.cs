@@ -7,3 +7,5 @@ libro1.StampaProdotto();
 Console.WriteLine("Mistery box////////////////////////");
 Prodotto mysterybox = new Prodotto("Mystery box", "Cartone con ogetti", 120, 22);
 mysterybox.StampaProdotto();
+double totalprice = mysterybox.prezzoTotale();
+Console.WriteLine("Prezzo totale: " + totalprice);
