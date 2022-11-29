@@ -56,6 +56,9 @@ namespace CSharpShop
         {
             Console.WriteLine("Nome completo: " +this.nome+this.codice);
         }
+        public void codiceFormat(int code)
+        {
+            Console.WriteLine( "{0,22:D8}",code);        }
         public void StampaProdotto()
         {
             Console.WriteLine("Nome: " + this.nome);
