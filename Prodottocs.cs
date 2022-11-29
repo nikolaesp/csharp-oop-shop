@@ -52,6 +52,10 @@ namespace CSharpShop
         {
             return this.prezzo + (this.prezzo * (this.iva/100.0));
         }
+        public void nomeCompleto()
+        {
+            Console.WriteLine("Nome completo: " +this.nome+this.codice);
+        }
         public void StampaProdotto()
         {
             Console.WriteLine("Nome: " + this.nome);
